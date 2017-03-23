@@ -74,11 +74,11 @@ body, html {
 }
 .university p, .languages p {
 	margin:5px 0;
-	font-size:11px;
+	font-size:10px !important;
 	font-family: 'Montserrat', sans-serif;
 	color:#fff;
 	line-height:15px;
-	font-weight:100;
+	font-weight:lighter;
 }
 .languages p {
 	margin:4px 0;
@@ -195,6 +195,38 @@ body, html {
     line-height: 18px;    
 	font-weight: 300;
 }
+
+.date, .role, .projects, .projdesc, .techused {
+	padding-left:30px;
+}
+.projects {
+	padding-top:10px;
+	padding-bottom:5px;
+	color:#000;
+	font-weight:400;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 18px;
+}
+
+.block_project li {
+	line-height:10px;
+}
+
+.date, .role, .projdesc, .techused {
+	color:#333;
+	font-size: 11px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 18px;
+	font-weight: 300;
+}
+.techused, .role {
+	padding-top:5px;
+	color:#000;
+}
+
+.role { padding-top:0px; }
+
 #certificate {
 	margin-top:14px;
 }

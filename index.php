@@ -1,8 +1,5 @@
 <?php
     require_once 'Curl.php';
-
-    $is_compact = (isset($_GET['compact'])?:false);
-
     $curl = new Curl();
     $resume = $curl->request($_GET['json_url']);
     $data = json_decode($resume[1], true);
@@ -43,29 +40,16 @@
                 <div class="skills">
                     <img style="float: left;width: 30px" src="images/skills.jpg"/>
 					<h2>Skills</h2>
-                    <?php if(!$is_compact):?>
-                    <div class="languages">
-                    	<p><strong>Legend:</strong></p>
-                        <p id="legend"><img src="images/skills-green.png"  class="img-circle legend" /><span>Number of years</span></p>
-                    </div>
-
-                        <?php foreach ($data['skills'] as $item):?>
+                    <?php foreach ($data['skills'] as $item):?>
                         <div class="languages">
-                            <p><strong><?php echo $item['name'];?></strong></p>
-                            <ul>
-                                <?php for($ctr=0;$ctr<$item['number_of_years'];$ctr++):?>
-                                <li><img src="images/skills-green.png"  class="img-circle legend" /></li>
-                                <?php endfor;?>
-                            </ul>
+                            <p><strong><?php echo $item['category'];?></strong></p>
+                        </div>
+                        <?php foreach ($item['technologies'] as $technology):?>
+                        <div class="languages">
+                            <p><span><?php echo $technology['name'];?></span><span style="float: right"><?php echo $technology['number_of_years'];?> <?php echo ($technology['number_of_years']>1)?'years':'year';?></span></p>
                         </div>
                         <?php endforeach;?>
-                    <?php else:?>
-                        <?php foreach ($data['skills'] as $item):?>
-                            <div class="languages">
-                                <p><strong><?php echo $item['name'];?></strong> <span style="float: right"><?php echo $item['number_of_years'];?> <?php echo ($item['number_of_years']>1)?'years':'year';?></span></p>
-                            </div>
-                        <?php endforeach;?>
-                    <?php endif;?>
+                    <?php endforeach;?>
                 </div>
                 
             </div>
@@ -88,7 +72,24 @@
                             <li class="col-lg-5 year"><p class="year"><strong><?php echo $item['startDate'];?> - <strong><?php echo $item['endDate'];?></p></li>
                             <li class="col-lg-8"><p><span><?php echo $item['company'];?></span></p></li>
                             <li class="col-lg-12 sub-text"><p><?php echo $item['summary'];?></p></li>
+                            <li class="col-lg-12 sub-text">
+                            </li>
                         </ul>
+
+                    <?php foreach ($item['projects'] as $project):?>
+                    <ul id="block_project">
+                        <li class="col-lg-12"><p class="projects"><?php echo $project['name'];?></p></li>
+                        <?php if($project['startDate']):?>
+                        <li class="col-lg-12"><p class="date"><?php echo $project['startDate'];?> - <?php echo $project['endDate'];?></p></li>
+                        <?php endif;?>
+                        <li class="col-lg-12"><p class="role"><?php echo $project['role'];?></p></li>
+                        <li class="col-lg-12"><p class="sub-text projdesc"><?php echo $project['description'];?></p></li>
+                        <li class="col-lg-12">
+                            <p class="techused">Technologies used:&nbsp;<?php echo $project['technologies'];?></p>
+                        </li>
+                    </ul>
+                    <?php endforeach;?>
+
             </div>
             <?php endforeach;?>
 

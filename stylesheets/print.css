@@ -16,7 +16,7 @@ body {
     width: 10px;
 }
 
-.languages p strong, .languages p span, .education p, .education p strong, .education h2, .skills h2{
+.languages p ,.languages p strong, .languages p span, .education p, .education p strong, .education h2, .skills h2{
     color:#ffffff !important;
 }
 
