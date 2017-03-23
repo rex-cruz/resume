@@ -1,0 +1,120 @@
+{
+  "basics": {
+    "name": "Rex Cruz",
+    "label": "Backend Developer",
+    "picture": "https://media.licdn.com/media/p/8/005/095/163/37256de.jpg",
+    "email": "rex.cruz@flightdigitalmedia.com",
+    "phone": "+639177023913"
+  },
+  "education": [{
+    "institution": "Bulacan State University",
+    "course": "Information Technology",
+    "studyType": "Bachelor",
+    "startDate": "2004",
+    "endDate": "2009"
+  }],
+  "skills": [{
+    "name": "PHP",
+    "number_of_years": 7
+  }, {
+    "name": "Python",
+    "number_of_years": 2
+  }, {
+    "name": "HTML5",
+    "number_of_years": 4
+  }, {
+    "name": "Javascript",
+    "number_of_years": 7
+  }, {
+    "name": "Jquery",
+    "number_of_years": 6
+  }, {
+    "name": "CSS",
+    "number_of_years": 6
+  }, {
+    "name": "Bootstrap",
+    "number_of_years": 4
+  }, {
+    "name": "AngularJs 1",
+    "number_of_years": 3
+  }, {
+    "name": "Laravel",
+    "number_of_years": 3
+  }, {
+    "name": "Lumen",
+    "number_of_years": 2
+  }, {
+    "name": "Silex",
+    "number_of_years": 2
+  }, {
+    "name": "Codeigniter",
+    "number_of_years": 4
+  }, {
+    "name": "Yii",
+    "number_of_years": 2
+  }, {
+    "name": "Django",
+    "number_of_years": 1
+  }, {
+    "name": "Concrete5",
+    "number_of_years": 2
+  }, {
+    "name": "Prestashop",
+    "number_of_years": 1
+  }, {
+    "name": "NodeJs",
+    "number_of_years": 2
+  }, {
+    "name": "MySql",
+    "number_of_years": 7
+  }, {
+    "name": "Postgresql",
+    "number_of_years": 1
+  }, {
+    "name": "Cocos2d-js",
+    "number_of_years": 3
+  }, {
+    "name": "Linux",
+    "number_of_years": 4
+  }, {
+    "name": "AWS",
+    "number_of_years": 1
+  }, {
+    "name": "Git",
+    "number_of_years": 4
+  }, {
+    "name": "REST",
+    "number_of_years": 2
+  }],
+  "work": [{
+    "company": "Flight Digital Media",
+    "position": "Backend Developer",
+    "startDate": "July 2015",
+    "endDate": "Present",
+    "summary": "Build RESTful web services to support mobile applications for Android and IOS. Help in improving development standards for web applications. Develop mobile first web applications with the use of latest design frameworks. Lead in developing new modules and customization for ecommerce portal using prestashop as a tool.",
+    "highlights": []
+  },{
+    "company": "Rising Tide Mobile Entertainment",
+    "position": "Application Developer",
+    "startDate": "July 2012",
+    "endDate": "Jun 2015",
+    "summary": "Support core and new business initiatives through the development of new and novel web services for e-commerce and mobile ads. Build web application for promotions, new mobile services and frontend javascript application through secured API request. Develop responsive frontend applications for web and mobile through new design framework like material design and bootstrap. Support in developing event applications like mobile raffle slotmachine for client events with the use of a javascript framework Cocos2d-js.",
+    "highlights": []
+  },{
+    "company": "ePLDT, Inc.",
+    "position": "Application Developer",
+    "startDate": "Aug 2010",
+    "endDate": "Jan 2012",
+    "summary": "Develop web applications to support in-house and client projects. Maintain application support and develop new modules for the Department of Trade and Industry Website.",
+    "highlights": []
+  },{
+    "company": "American Data Exchange Corporation",
+    "position": "PHP Developer",
+    "startDate": "Apr 2009",
+    "endDate": "Jul 2010",
+    "summary": "Maintain and develop new modules of an existing web applications for a US client such as UHS Fax application, Statefarm Bank websites and other DCSI applications.",
+    "highlights": []
+  }
+  ],
+  "certification": []
+}

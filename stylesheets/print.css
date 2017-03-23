@@ -1,0 +1,25 @@
+
+body {
+    background-color:#313946 !important;
+}
+
+.left_cont {
+    color:#ffffff !important;
+}
+.right_cont {
+    background-color:#FFF !important;
+}
+
+.img-circle {
+    border:2px solid #34658d;
+    -webkit-print-color-adjust: exact;
+    width: 10px;
+}
+
+.languages p strong, .languages p span, .education p, .education p strong, .education h2, .skills h2{
+    color:#ffffff !important;
+}
+
+i.fa-wrench, i.fa-graduation-cap, .fa {
+    color: #ffffff !important;
+}
