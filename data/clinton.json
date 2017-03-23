@@ -1,0 +1,165 @@
+{
+  "basics": {
+    "name": "Clinton Wanason",
+    "label": "Programmer",
+    "picture": "https://media.licdn.com/media/AAEAAQAAAAAAAAqoAAAAJDk0Y2ExZGRkLWE2NDItNGQ1ZC04Y2FjLTJjODE4YTE5NjA0NQ.jpg",
+    "email": "clinton.wanason@flightdigitalmedia.com",
+    "phone": "+639980626296"
+  },
+  "education": [{
+    "institution": "University of the Cordilleras",
+    "course": "Information Technology",
+    "studyType": "Bachelor",
+    "startDate": "2009",
+    "endDate": "2014"
+  }],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "technologies":[{
+        "name": "PHP",
+        "number_of_years": 3
+      },{
+        "name": "Javascript",
+        "number_of_years": 2
+      },{
+        "name" : "Android",
+        "number_of_years" : 1
+      }]
+    },{
+      "category": "Web Technologies",
+      "technologies":[{
+        "name": "HTML5",
+        "number_of_years": 3
+      }, {
+        "name": "Jquery",
+        "number_of_years": 2
+      }, {
+        "name": "CSS",
+        "number_of_years": 2
+      }, {
+        "name": "Bootstrap",
+        "number_of_years": 2
+      }, {
+        "name": "Material Design",
+        "number_of_years": 1
+      }]
+    },{
+      "category": "Development Frameworks",
+      "technologies":[{
+        "name": "Laravel",
+        "number_of_years": 1
+      },{
+        "name": "Codeigniter",
+        "number_of_years": 1
+      }]
+    },{
+      "category": "Databases",
+      "technologies":[{
+        "name": "MySql",
+        "number_of_years": 3
+      }]
+    },{
+      "category": "Content Management System",
+      "technologies":[{
+        "name": "cscart",
+        "number_of_years": 2
+      }]
+    },{
+      "category": "Version Control",
+      "technologies":[{
+        "name": "Git",
+        "number_of_years": 1
+      }]
+    },{
+      "category": "Operating System",
+      "technologies":[{
+        "name": "Linux",
+        "number_of_years": 1
+      }]
+    },{
+      "category": "Integrated Development Environment",
+      "technologies":[{
+        "name": "PHPstorm",
+        "number_of_years": 1
+      }]
+    }
+  ],
+  "work": [{
+    "company": "Circus Co. Ltd",
+    "position": "Programmer",
+    "startDate": "June 2015",
+    "endDate": "February 2017",
+    "summary": "Build Systems Application base on what the client needs. Help in improving development standards for web applications. Develop mobile first web applications with the use of latest design frameworks. Develop mobile versions of the app using Java Android.",
+    "highlights": [],
+    "projects":[
+      {
+        "name":"hris.circus.ac",
+        "description":"An Human Resource Information System used by human resource and employees",
+        "role":"Developer",
+        "startDate":"2015",
+        "endDate":"2016",
+        "technologies":"PHP, MySql, Laravel"
+      },{
+        "name":"mall.hallohallo.com",
+        "description":"A ecommerce site where you can shop online ",
+        "role":"Developer",
+        "startDate":"2014",
+        "endDate":"Present",
+        "technologies":"PHP, MySql, Cscart"
+      },{
+        "name":"job.hallohallo.com",
+        "description":"A ecommerce site where user can apply jobs limited to hallo hallo companies only ",
+        "role":"Developer",
+        "startDate":"2014",
+        "endDate":"Present",
+        "technologies":"PHP, MySql, Cscart"
+      },{
+        "name":"rental.hallohallo.com",
+        "description":"A site where user can rent condos",
+        "role":"Developer",
+        "startDate":"2014",
+        "endDate":"Present",
+        "technologies":"PHP, MySql, Cscart"
+      },{
+        "name":"Custom CMS",
+        "description":"A content management system, user can add pages, description images etc. at the backend of the site.",
+        "role":"Developer",
+        "startDate":"2014",
+        "endDate":"Present",
+        "technologies":"PHP, MySql, Javascript"
+      },{
+        "name":"tv.hallohallo.com",
+        "description":"The admin can post videos and display at the front page of the site.",
+        "role":"Developer",
+        "startDate":"2014",
+        "endDate":"Present",
+        "technologies":"PHP, MySql, Javascript"
+      },{
+        "name":"members-backend synnidicate",
+        "description":"The site handles all user data coming from all hallo hallo sites.",
+        "role":"Developer",
+        "startDate":"2014",
+        "endDate":"Present",
+        "technologies":"PHP, MySql, Javascript"
+      }
+    ]
+  },{
+    "company": "Sci5 Software Inc.",
+    "position": "Web Developer",
+    "startDate": "May 2014",
+    "endDate": "Feb 2015",
+    "summary": "Develop web applications using codeigniter framework, extended the existing website functionality base on the client needs ",
+    "highlights": [],
+    "projects":[{
+      "name":"www.jascoinc.com",
+      "description":"A site that sell laboratory equipments",
+      "role":"Main Developer",
+      "startDate":"",
+      "endDate":"",
+      "technologies":"PHP, Mysql"
+    }]
+  }
+  ],
+  "certification": []
+}

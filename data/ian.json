@@ -1,0 +1,160 @@
+{
+	"basics": {
+		"name": "Christian Vizarra",
+		"label": "Fullstack Web Developer",
+		"picture": "https://ca.slack-edge.com/T047UU7JA-U048XJTQU-8cb22bd19a0b-1024",
+		"email": "christian.vizarra@flightdigitalmedia.com",
+		"phone": "+639152555999"
+	},
+	"education": [{
+		"institution": "Bulacan State University",
+		"course": "Information Technology",
+		"studyType": "Bachelor",
+		"startDate": "2008",
+		"endDate": "2012"
+	}],
+	"skills": [{
+		"category": "Programming Languages",
+		"technologies": [{
+			"name": "PHP",
+			"number_of_years": 5
+		}, {
+			"name": "Javascript",
+			"number_of_years": 5
+		}, {
+			"name": "Nodejs",
+			"number_of_years": 3
+		}]
+	}, {
+		"category": "Web Technologies",
+		"technologies": [{
+			"name": "HTML5",
+			"number_of_years": 4
+		}, {
+			"name": "Jquery",
+			"number_of_years": 5
+		}, {
+			"name": "CSS3",
+			"number_of_years": 5
+		}, {
+			"name": "Bootstrap",
+			"number_of_years": 4
+		}, {
+			"name": "Material Design",
+			"number_of_years": 2
+		}, {
+			"name": "AngularJS 1",
+			"number_of_years": 2
+		}]
+	}, {
+		"category": "Development Frameworks",
+		"technologies": [{
+			"name": "Laravel",
+			"number_of_years": 4
+		}, {
+			"name": "Lumen",
+			"number_of_years": 3
+		}, {
+			"name": "Silex",
+			"number_of_years": 2
+		}, {
+			"name": "Codeigniter",
+			"number_of_years": 4
+		}, {
+			"name": "Parse JS",
+			"number_of_years": 2
+		}]
+	}, {
+		"category": "Databases",
+		"technologies": [{
+			"name": "MySql",
+			"number_of_years": 5
+		}, {
+			"name": "PostgreSQL",
+			"number_of_years": 1
+		}]
+	}, {
+		"category": "Content Management System",
+		"technologies": [{
+			"name": "Wordpress",
+			"number_of_years": 2
+		}]
+	}, {
+		"category": "Version Control",
+		"technologies": [{
+			"name": "Git",
+			"number_of_years": 4
+		}]
+	}, {
+		"category": "Operating System",
+		"technologies": [{
+			"name": "Linux",
+			"number_of_years": 4
+		}, {
+			"name": "Mac",
+			"number_of_years": 4
+		}]
+	}, {
+		"category": "Web Services",
+		"technologies": [{
+			"name": "Amazon Web Services",
+			"number_of_years": 1
+		}, {
+			"name": "Microsoft Azure",
+			"number_of_years": 1
+		}, {
+			"name": "Heroku",
+			"number_of_years": 1
+		}, {
+			"name": "Digital Ocean",
+			"number_of_years": 2
+		}]
+	}, {
+		"category": "Integrated Development Environment",
+		"technologies": [{
+			"name": "PHPstorm",
+			"number_of_years": 3
+		}, {
+			"name": "Webstorm",
+			"number_of_years": 3
+		}]
+	}],
+	"work": [{
+		"company": "Flight Digital Media",
+		"position": "Fullstack Web Developer",
+		"startDate": "May 2013",
+		"endDate": "Present",
+		"summary": "Building/Designing Secure REST API for cross platform apps. Manage servers and databases in AWS. Building admin portal for SME applications.",
+		"highlights": [],
+		"projects": [{
+			"name": "Coca-Cola Happyshopmate",
+			"description": "Loyalty/Rewards App for Coca-Cola.<br/> Build and Designed Scalable Database Architecture. Lead API Developer implementing the RESTful API specification. Developed the Admin portal built in AngularJS. Implemented Security based on PwC compliance",
+			"role": "Developer",
+			"startDate": "2015",
+			"endDate": "Present",
+			"technologies": "PHP, MySql, Silex, AngularJS, AWS"
+		}, {
+			"name": "PowerTeam",
+			"description": "Sports Team Management.<br/> Develop the BackeEnd using ParseJS Framework. Designed and Developed the UI/UX of web application version of the application. Implemented Responsive design.",
+			"role": "Lead FrontEnd and Backend Developer",
+			"startDate": "2015",
+			"endDate": "Present",
+			"technologies": "ParseJS, CSS, HTML, Javascript"
+		}, {
+			"name": "Zukii",
+			"description": "Social E-commerce Mobile App. <br/> Consist of server apps for the ecommerce ecosystem from Merchant, Consumer, Logistics and Rider. Lead FrontEnd and BackEnd Developer. Build and Designed Scalable Database Architecture. Built in Laravel Framework (PHP). Setup and manage the server in AWS using ElasticBeanstalk",
+			"role": "Lead API Developer",
+			"startDate": "2016",
+			"endDate": "Present",
+			"technologies": "PHP, MySql, Laravel, AWS, Docker, Continuous Integration, Continuous Delivery"
+		}, {
+			"name": "Coca-Cola Toolkit",
+			"description": "Asset Management for Coca-Cola agency partners. <br/> Lead FrontEnd and BackEnd Developer. Build and Designed Scalable Database Architecture. Built in Laravel Framework (PHP). Setup and manage the server in AWS using ElasticBeanstalk.",
+			"role": "Lead FrontEnd and BackEnd Developer",
+			"startDate": "2016",
+			"endDate": "Present",
+			"technologies": "PHP, MySql, Laravel, AWS, Javascript"
+		}]
+	}],
+	"certification": []
+}

@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Rex Cruz",
-    "label": "Backend Developer",
+    "label": "Fullstack Web Developer",
     "picture": "https://media.licdn.com/media/p/8/005/095/163/37256de.jpg",
     "email": "rex.cruz@flightdigitalmedia.com",
     "phone": "+639177023913"
@@ -43,11 +43,8 @@
       }, {
         "name": "Bootstrap",
         "number_of_years": 4
-      }, {
-        "name": "Material Design",
-        "number_of_years": 2
       },{
-        "name": "AngularJs 1",
+        "name": "AngularJS",
         "number_of_years": 3
       }]
     },{
@@ -62,20 +59,11 @@
         "name": "Silex",
         "number_of_years": 2
       }, {
-        "name": "Codeigniter",
-        "number_of_years": 4
-      }, {
         "name": "Yii",
         "number_of_years": 2
       }, {
         "name": "Django",
         "number_of_years": 1
-      },{
-        "name": "Cocos2d-js",
-        "number_of_years": 3
-      },{
-        "name": "Expressjs",
-        "number_of_years": 2
       }]
     },{
       "category": "Databases",
@@ -83,7 +71,7 @@
         "name": "MySql",
         "number_of_years": 7
       }, {
-        "name": "Postgresql",
+        "name": "PostgreSQL",
         "number_of_years": 1
       }]
     },{
@@ -91,12 +79,6 @@
       "technologies":[{
         "name": "Concrete5",
         "number_of_years": 2
-      },{
-        "name": "Wordpress",
-        "number_of_years": 2
-      },{
-        "name": "Drupal",
-        "number_of_years": 1
       }, {
         "name": "Prestashop",
         "number_of_years": 1
@@ -112,9 +94,6 @@
       "technologies":[{
         "name": "Linux",
         "number_of_years": 4
-      }, {
-        "name": "Mac",
-        "number_of_years": 1
       }]
     },{
       "category": "Web Services",
@@ -124,7 +103,10 @@
       }, {
         "name": "Microsoft Azure",
         "number_of_years": 1
-      }]
+      }, {
+        "name": "Digital Ocean",
+        "number_of_years": 1
+      },]
     },{
       "category": "Integrated Development Environment",
       "technologies":[{
@@ -148,19 +130,19 @@
     "highlights": [],
     "projects":[
       {
-        "name":"Coca-cola D2C Ecommerce",
+        "name":"Coca-Cola D2C Ecommerce",
         "description":"An ecommerce application that enables consumer to order bulk coca-cola products via web. Our main task is to develop new modules and features as well as full customization of the site.",
         "role":"Lead Developer",
         "startDate":"2016",
         "endDate":"Present",
         "technologies":"PHP, MySql, Prestashop"
       },{
-        "name":"Happyshopmate RESTAPI and Portal",
+        "name":"Coca-Cola Happy Shopmate RESTAPI and Portal",
         "description":"A backend API that supports the android and ios application reward system app. This application has bunch of features which includes Coupons, NFC, Qrcode and Beacon detection which allow users to redeem and win instant prizes. ",
         "role":"Lead Developer",
         "startDate":"2015",
         "endDate":"Present",
-        "technologies":"PHP, MySql, Silex, AngularJs"
+        "technologies":"PHP, MySql, Silex, AngularJS"
       }
     ]
   },{
@@ -183,21 +165,21 @@
       "role":"Main Developer",
       "startDate":"",
       "endDate":"",
-      "technologies":"PHP, Laravel, Mysql, AngularJs, Facebook, Twitter"
+      "technologies":"PHP, Laravel, Mysql, AngularJS, Facebook, Twitter"
     },{
       "name":"Newsbuzz CMS",
       "description":"A tool use to broadcast SMS message to a number of subscriber base. This is basically the content management system use to trigger the third party API who pushes the message to its subscribers. Users will receive a message with a link to the video page and let them play and watch the clip.",
       "role":"Main Developer",
       "startDate":"",
       "endDate":"",
-      "technologies":"Python, Django, Postgresql, Rest Framework, AngularJs"
+      "technologies":"Python, Django, PostgreSQL, Rest Framework, AngularJS"
     },{
       "name":"GethostedCheap",
       "description":"a facebook application that let users register and buy a hosting account for as low as 50 pesos using the facebook mobile payment platform. Target clients are those people who do not have credit cards specifically students. The app will give users a 200MB storage, 1GB/month bandwidth running on Linux CentOs 64bit with PHP and Mysql, plus a free subdomain on gethosted.cheap.",
       "role":"Main Developer",
       "startDate":"",
       "endDate":"",
-      "technologies":"Nodejs, Mysql, AngularJs, Facebook"
+      "technologies":"Nodejs, Mysql, AngularJS, Facebook"
     },{
       "name":"Battlemob",
       "description":"HTML5 game application that let users register through their facebook account, subscribe to a service to earn tokens and play one of the 3 games. User will gain raffle entries for every 10 points earned for a chance to win cellphone loads and other real prizes.",
