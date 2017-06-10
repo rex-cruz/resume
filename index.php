@@ -66,18 +66,19 @@
             </div>
 
             <?php foreach ($data['work'] as $item):?>
-            <div class="details" id="work">
-                    	<ul class="work">
-                            <li class="col-lg-7"><p class="title"><strong><?php echo $item['position'];?></strong></p></li>
-                            <li class="col-lg-5 year"><p class="year"><strong><?php echo $item['startDate'];?> - <strong><?php echo $item['endDate'];?></p></li>
-                            <li class="col-lg-8"><p><span><?php echo $item['company'];?></span></p></li>
-                            <li class="col-lg-12 sub-text"><p><?php echo $item['summary'];?></p></li>
-                            <li class="col-lg-12 sub-text">
-                            </li>
-                        </ul>
+<!--            <div class="details" id="work">-->
+<!--                    	<ul class="work">-->
+<!--                            <li class="col-lg-7"><p class="title"><strong>--><?php //echo $item['position'];?><!--</strong></p></li>-->
+<!--                            <li class="col-lg-5 year"><p class="year"><strong>--><?php //echo $item['startDate'];?><!-- - <strong>--><?php //echo $item['endDate'];?><!--</p></li>-->
+<!--                            <li class="col-lg-8"><p><span>--><?php //echo $item['company'];?><!--</span></p></li>-->
+<!--                            <li class="col-lg-12 sub-text"><p>--><?php //echo $item['summary'];?><!--</p></li>-->
+<!--                            <li class="col-lg-12 sub-text">-->
+<!--                            </li>-->
+<!--                        </ul>-->
 
                     <?php foreach ($item['projects'] as $project):?>
-                    <ul id="block_project">
+                    <div  class="details" id="work">
+                    <ul class="work">
                         <li class="col-lg-12"><p class="projects"><?php echo $project['name'];?></p></li>
                         <?php if($project['startDate']):?>
                         <li class="col-lg-12"><p class="date"><?php echo $project['startDate'];?> - <?php echo $project['endDate'];?></p></li>
@@ -89,8 +90,8 @@
                         </li>
                     </ul>
                     <?php endforeach;?>
-
-            </div>
+                    </div>
+<!--            </div>-->
             <?php endforeach;?>
 
 

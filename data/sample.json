@@ -1,0 +1,45 @@
+{
+  "basics": {
+    "name": "{Full Name}",
+    "label": "{Position}",
+    "picture": "{Image url}",
+    "email": "{Email}",
+    "phone": "{Contact Number}"
+  },
+  "education": [{
+    "institution": "{School Name}",
+    "course": "{Course}",
+    "studyType": "Bachelor",
+    "startDate": "{Start Date}",
+    "endDate": "{End Date}"
+  }],
+  "skills": [
+    {
+      "category": "[Category Name]",
+      "technologies":[{
+        "name": "{Name}",
+        "number_of_years": 1
+      }]
+    }
+  ],
+  "work": [{
+    "company": "{Company}",
+    "position": "{Position}",
+    "startDate": "{Start Date}",
+    "endDate": "{End Date}",
+    "summary": "{Summary}",
+    "highlights": [],
+    "projects":[
+      {
+        "name":"{Project Name 1}",
+        "description":"{Description}",
+        "role":"{Project Role}",
+        "startDate":"{Start Date}",
+        "endDate":"{End Date}",
+        "technologies":"{Technologies}"
+      }
+    ]
+  }
+  ],
+  "certification": []
+}
