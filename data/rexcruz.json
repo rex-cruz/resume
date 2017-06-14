@@ -25,42 +25,21 @@
       }, {
         "name": "Javascript",
         "number_of_years": 7
-      }, {
-        "name": "Nodejs",
-        "number_of_years": 2
       }]
     },{
-      "category": "Web Technologies",
+      "category": "Front-end Frameworks",
       "technologies":[{
-        "name": "HTML5",
-        "number_of_years": 4
-      }, {
-        "name": "Jquery",
-        "number_of_years": 6
-      }, {
-        "name": "CSS",
-        "number_of_years": 6
-      }, {
-        "name": "Bootstrap",
-        "number_of_years": 4
-      },{
-        "name": "AngularJS",
+        "name": "AngularJS v1",
         "number_of_years": 3
+      },{
+        "name": "ReactJs",
+        "number_of_years": "0.5"
       }]
     },{
-      "category": "Development Frameworks",
+      "category": "Back-end Frameworks",
       "technologies":[{
         "name": "Laravel",
         "number_of_years": 3
-      }, {
-        "name": "Lumen",
-        "number_of_years": 2
-      }, {
-        "name": "Silex",
-        "number_of_years": 2
-      }, {
-        "name": "Yii",
-        "number_of_years": 2
       }, {
         "name": "Django",
         "number_of_years": 1
@@ -70,54 +49,6 @@
       "technologies":[{
         "name": "MySql",
         "number_of_years": 7
-      }, {
-        "name": "PostgreSQL",
-        "number_of_years": 1
-      }]
-    },{
-      "category": "Content Management System",
-      "technologies":[{
-        "name": "Concrete5",
-        "number_of_years": 2
-      }, {
-        "name": "Prestashop",
-        "number_of_years": 1
-      }]
-    },{
-      "category": "Version Control",
-      "technologies":[{
-        "name": "Git",
-        "number_of_years": 4
-      }]
-    },{
-      "category": "Operating System",
-      "technologies":[{
-        "name": "Linux",
-        "number_of_years": 4
-      }]
-    },{
-      "category": "Web Services",
-      "technologies":[{
-        "name": "Amazon Web Services",
-        "number_of_years": 1
-      }, {
-        "name": "Microsoft Azure",
-        "number_of_years": 1
-      }, {
-        "name": "Digital Ocean",
-        "number_of_years": 1
-      }]
-    },{
-      "category": "Integrated Development Environment",
-      "technologies":[{
-        "name": "PHPstorm",
-        "number_of_years": 3
-      }, {
-        "name": "Webstorm",
-        "number_of_years": 3
-      }, {
-        "name": "Pycharm",
-        "number_of_years": 1
       }]
     }
   ],
@@ -135,6 +66,7 @@
         "role":"Lead Developer",
         "startDate":"2016",
         "endDate":"Present",
+        "months":"(18 months)",
         "technologies":"PHP, MySql, Prestashop"
       },{
         "name":"Coca-Cola Happy Shopmate RESTAPI and Portal",
@@ -142,6 +74,7 @@
         "role":"Lead Developer",
         "startDate":"2015",
         "endDate":"Present",
+        "months":"(24 months)",
         "technologies":"PHP, MySql, Silex, AngularJS"
       }
     ]
@@ -156,36 +89,41 @@
       "name":"Mobile Slotmachine",
       "description":"A slotmachine that draws mobile number raffle entries randomly. Winners are predrawn and this is use to present the winning mobile number to the event, which makes the crowd more excited and the event more exciting as we reveal each number.",
       "role":"Main Developer",
-      "startDate":"",
+      "startDate":"2015",
       "endDate":"",
+      "months":"(3 months)",
       "technologies":"PHP, Lumen, Mysql, Cocos2d-js"
     },{
       "name":"Hashtag Service",
       "description":"A social media application for facebook and twitter users, and use for client promos and campaign. Users will have to post to facebook page wall or tweet with a certain hashtag string. The system will get the entries and reply with links to claim their rewards.",
       "role":"Main Developer",
-      "startDate":"",
+      "startDate":"2015",
       "endDate":"",
+      "months":"(6 months)",
       "technologies":"PHP, Laravel, Mysql, AngularJS, Facebook, Twitter"
     },{
       "name":"Newsbuzz CMS",
       "description":"A tool use to broadcast SMS message to a number of subscriber base. This is basically the content management system use to trigger the third party API who pushes the message to its subscribers. Users will receive a message with a link to the video page and let them play and watch the clip.",
       "role":"Main Developer",
-      "startDate":"",
+      "startDate":"2015",
       "endDate":"",
+      "months":"(6 months)",
       "technologies":"Python, Django, PostgreSQL, Rest Framework, AngularJS"
     },{
       "name":"GethostedCheap",
       "description":"a facebook application that let users register and buy a hosting account for as low as 50 pesos using the facebook mobile payment platform. Target clients are those people who do not have credit cards specifically students. The app will give users a 200MB storage, 1GB/month bandwidth running on Linux CentOs 64bit with PHP and Mysql, plus a free subdomain on gethosted.cheap.",
       "role":"Main Developer",
-      "startDate":"",
+      "startDate":"2014",
       "endDate":"",
+      "months":"(3 months)",
       "technologies":"Nodejs, Mysql, AngularJS, Facebook"
     },{
       "name":"Battlemob",
       "description":"HTML5 game application that let users register through their facebook account, subscribe to a service to earn tokens and play one of the 3 games. User will gain raffle entries for every 10 points earned for a chance to win cellphone loads and other real prizes.",
       "role":"Main Developer",
-      "startDate":"",
-      "endDate":"",
+      "startDate":"2012",
+      "endDate":"2014",
+      "months":"(24 months)",
       "technologies":"PHP, Yii, Mysql, Nodejs, Cocos2d-js"
     }]
   },{

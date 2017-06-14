@@ -81,7 +81,7 @@
                     <ul class="work">
                         <li class="col-lg-12"><p class="projects"><?php echo $project['name'];?></p></li>
                         <?php if($project['startDate']):?>
-                        <li class="col-lg-12"><p class="date"><?php echo $project['startDate'];?> - <?php echo $project['endDate'];?></p></li>
+                        <li class="col-lg-12"><p class="date"><?php echo $project['startDate'];?> <?php echo ($project['endDate'])?' - '.$project['endDate']:'';?> <?php echo $project['months'];?></p></li>
                         <?php endif;?>
                         <li class="col-lg-12"><p class="role"><?php echo $project['role'];?></p></li>
                         <li class="col-lg-12"><p class="sub-text projdesc"><?php echo $project['description'];?></p></li>
