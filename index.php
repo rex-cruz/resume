@@ -85,7 +85,7 @@
                         <?php endif;?>
                         <li class="col-lg-12"><p class="role"><?php echo $project['role'];?></p></li>
                         <li class="col-lg-12"><p class="sub-text projdesc"><?php echo $project['description'];?></p></li>
-                        <li class="col-lg-12">
+			<li class="col-lg-12" style="display:<?php echo ($project['technologies']=='')?'none':'';?>">
                             <p class="techused">Technologies used:&nbsp;<?php echo $project['technologies'];?></p>
                         </li>
                     </ul>
