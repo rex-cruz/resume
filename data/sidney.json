@@ -1,0 +1,100 @@
+{
+  "basics": {
+    "name": "Sydney Joi Agcaoili",
+    "label": "Android Developer",
+    "picture": "https://avatars0.githubusercontent.com/u/26079437?v=3&s=400",
+    "email": "sydneyagcaoili@gmail.com",
+    "phone": "09176261082"
+  },
+  "education": [
+    {
+      "institution": "Saint Mary's University",
+      "course": "InformationTechnology",
+      "studyType": "Bachelor",
+      "startDate": "2010",
+      "endDate": "2015"
+    }
+  ],
+  "skills": [
+    {
+      "category":"Core Competencies",
+      "technologies":[
+        {
+          "name": "Java",
+          "number_of_years": 4
+        },
+        {
+          "name": "Android SDK",
+          "number_of_years": 3
+        },
+        {
+          "name": "PHP",
+          "number_of_years": 1
+        }
+      ]
+   }
+   ],
+  "work": [
+    {
+      "company": "FlightDigitalMedia",
+      "position": "AndroidDeveloper",
+      "startDate": "Jul 2015",
+      "endDate": "Present",
+      "highlights": [],
+      "projects": [
+        {
+          "name": "ZukiiPartner",
+          "description": "AmobileapplicationfortheZukiimerchantsformanagingstoreandproducts",
+          "role": "Android",
+          "startDate": "Jan 2017",
+          "endDate": "Present"
+        },
+        {
+          "name": "Kenzai",
+          "description": "AmobileapplicationfortheKenzaifitnessandnutritionprograms",
+          "role": "Android",
+          "startDate": "Sept 2015",
+          "endDate": "Dec 2016",
+          "technologies": "Android"
+        },
+        {
+          "name": "Powerteam",
+          "description": "Amobileapplicationfororganizingasportsteam",
+          "role": "Android",
+          "startDate": "Aug 2016",
+          "endDate": "Sept 2016"
+        },
+        {
+          "name": "HappyShopmate",
+          "description": "RewardSystemMobileApplicationforCoca-Colaandpartnerstores'products",
+          "role": "Android Developer",
+          "startDate": "Jul 2015",
+          "endDate": "Aug 2015"
+        }
+      ]
+    },
+    {
+      "company": "HDPSDS",
+      "position": "Junior Developer",
+      "startDate": "January 2015",
+      "endDate": "June 2015",
+      "projects": [
+        {
+          "name": "CurtainCall Manila",
+          "description": "App for displaying latest theater shows in manila",
+          "role": "Android",
+          "startDate": "Jan 2015",
+          "endDate": "Apr 2015"
+        },
+        {
+          "name": "Ezkulz",
+          "description": "School grading system",
+          "role": "Android, Animator, Website",
+          "startDate": "Apr 2015",
+          "endDate": "Jun 2015"
+        }
+      ]
+    }
+  ],
+  "certification": []
+}
