@@ -1,0 +1,151 @@
+{
+  "basics": {
+    "name": "Greg Aquino III",
+    "label": "QA Manager",
+    "picture": "https://media.licdn.com/media/p/8/005/095/163/37256de.jpg",
+    "email": "greg.aquino@flightdigitalmedia.com",
+    "phone": "+639985544136"
+  },
+  "education": [{
+    "institution": "AMA Computer University",
+    "course": "Computer Science",
+    "studyType": "Bachelor",
+    "startDate": "2010",
+    "endDate": "2013"
+  }],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "technologies":[{
+        "name": "PHP",
+        "number_of_years": 7
+      }, {
+        "name": "Python",
+        "number_of_years": 2
+      }, {
+        "name": "Javascript",
+        "number_of_years": 7
+      }]
+    },{
+      "category": "Front-end Frameworks",
+      "technologies":[{
+        "name": "AngularJS v1",
+        "number_of_years": 3
+      },{
+        "name": "ReactJs",
+        "number_of_years": "0.5"
+      }]
+    },{
+      "category": "Back-end Frameworks",
+      "technologies":[{
+        "name": "Laravel",
+        "number_of_years": 3
+      }, {
+        "name": "Django",
+        "number_of_years": 1
+      }]
+    },{
+      "category": "Databases",
+      "technologies":[{
+        "name": "MySql",
+        "number_of_years": 7
+      },{
+        "name": "PostgreSQL",
+        "number_of_years": 1
+      }]
+    }
+  ],
+  "work": [{
+    "company": "Flight Digital Media",
+    "position": "Backend Developer",
+    "startDate": "July 2015",
+    "endDate": "Present",
+    "summary": "Build RESTful web services to support mobile applications for Android and IOS. Help in improving development standards for web applications. Develop mobile first web applications with the use of latest design frameworks. Lead in developing new modules and customization for ecommerce portal using prestashop as a tool.",
+    "highlights": [],
+    "projects":[
+      {
+        "name":"Coca-Cola D2C Ecommerce",
+        "description":"An ecommerce application that enables consumer to order bulk coca-cola products via web. Our main task is to develop new modules and features as well as full customization of the site.",
+        "role":"Lead Developer",
+        "startDate":"2016",
+        "endDate":"Present",
+        "months":"(18 months)",
+        "technologies":"PHP, MySql, Prestashop"
+      },{
+        "name":"Coca-Cola Happy Shopmate RESTAPI and Portal",
+        "description":"A backend API that supports the android and ios application reward system app. This application has bunch of features which includes Coupons, NFC, Qrcode and Beacon detection which allow users to redeem and win instant prizes. ",
+        "role":"Lead Developer",
+        "startDate":"2015",
+        "endDate":"Present",
+        "months":"(24 months)",
+        "technologies":"PHP, MySql, Silex, AngularJS"
+      }
+    ]
+  },{
+    "company": "Rising Tide Mobile Entertainment",
+    "position": "Application Developer",
+    "startDate": "July 2012",
+    "endDate": "Jun 2015",
+    "summary": "Support core and new business initiatives through the development of new and novel web services for e-commerce and mobile ads. Build web application for promotions, new mobile services and frontend javascript application through secured API request. Develop responsive frontend applications for web and mobile through new design framework like material design and bootstrap. Support in developing event applications like mobile raffle slotmachine for client events with the use of a javascript framework Cocos2d-js.",
+    "highlights": [],
+    "projects":[{
+      "name":"Mobile Slotmachine",
+      "description":"A slotmachine that draws mobile number raffle entries randomly. Winners are predrawn and this is use to present the winning mobile number to the event, which makes the crowd more excited and the event more exciting as we reveal each number.",
+      "role":"Main Developer",
+      "startDate":"2015",
+      "endDate":"",
+      "months":"(3 months)",
+      "technologies":"PHP, Lumen, Mysql, Cocos2d-js"
+    },{
+      "name":"Hashtag Service",
+      "description":"A social media application for facebook and twitter users, and use for client promos and campaign. Users will have to post to facebook page wall or tweet with a certain hashtag string. The system will get the entries and reply with links to claim their rewards.",
+      "role":"Main Developer",
+      "startDate":"2015",
+      "endDate":"",
+      "months":"(6 months)",
+      "technologies":"PHP, Laravel, Mysql, AngularJS, Facebook, Twitter"
+    },{
+      "name":"Newsbuzz CMS",
+      "description":"A tool use to broadcast SMS message to a number of subscriber base. This is basically the content management system use to trigger the third party API who pushes the message to its subscribers. Users will receive a message with a link to the video page and let them play and watch the clip.",
+      "role":"Main Developer",
+      "startDate":"2015",
+      "endDate":"",
+      "months":"(6 months)",
+      "technologies":"Python, Django, PostgreSQL, Rest Framework, AngularJS"
+    },{
+      "name":"GethostedCheap",
+      "description":"a facebook application that let users register and buy a hosting account for as low as 50 pesos using the facebook mobile payment platform. Target clients are those people who do not have credit cards specifically students. The app will give users a 200MB storage, 1GB/month bandwidth running on Linux CentOs 64bit with PHP and Mysql, plus a free subdomain on gethosted.cheap.",
+      "role":"Main Developer",
+      "startDate":"2014",
+      "endDate":"",
+      "months":"(3 months)",
+      "technologies":"Nodejs, Mysql, AngularJS, Facebook"
+    },{
+      "name":"Battlemob",
+      "description":"HTML5 game application that let users register through their facebook account, subscribe to a service to earn tokens and play one of the 3 games. User will gain raffle entries for every 10 points earned for a chance to win cellphone loads and other real prizes.",
+      "role":"Main Developer",
+      "startDate":"2012",
+      "endDate":"2014",
+      "months":"(24 months)",
+      "technologies":"PHP, Yii, Mysql, Nodejs, Cocos2d-js"
+    }]
+  },{
+    "company": "ePLDT, Inc.",
+    "position": "Application Developer",
+    "startDate": "Aug 2010",
+    "endDate": "Jan 2012",
+    "summary": "Develop web applications to support in-house and client projects. Maintain application support and develop new modules for the Department of Trade and Industry Website.",
+    "highlights": [],
+    "projects":[]
+  },{
+    "company": "American Data Exchange Corporation",
+    "position": "PHP Developer",
+    "startDate": "Apr 2009",
+    "endDate": "Jul 2010",
+    "summary": "Maintain and develop new modules of an existing web applications for a US client such as UHS Fax application, Statefarm Bank websites and other DCSI applications.",
+    "highlights": [],
+    "projects":[]
+  }
+  ],
+  "certification": []
+}
