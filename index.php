@@ -21,7 +21,7 @@ $data = json_decode($resume[1], true);
 <div class="container">
     <div class="left_cont">
         <div class="image">
-            <img src="<?php echo $data['basics']['picture']; ?>" class="img-circle"/>
+            <img src="<?php echo 'https://media-exp1.licdn.com/dms/image/C5603AQE95lk6wkvFxQ/profile-displayphoto-shrink_800_800/0/1517552756435?e=1616025600&v=beta&t=HQL1Tm0IIPtVK3MYr46mi3NRC-PdHpIMfJMPwOWg22M'//$data['basics']['picture']; ?>" class="img-circle"/>
         </div>
         <div class="description">
             <div class="education">
@@ -54,6 +54,7 @@ $data = json_decode($resume[1], true);
             </div>
 
         </div>
+
     </div>
 
     <div class="right_cont">
@@ -67,7 +68,7 @@ $data = json_decode($resume[1], true);
         </div>
 
         <?php foreach ($data['projects'] as $project): ?>
-        <div class="details" id="work">
+        <div class="details">
             <ul class="work">
                 <li class="col-lg-12"><p class="projects"><?php echo $project['name']; ?></p></li>
                 <?php if ($project['startDate']): ?>
@@ -81,9 +82,8 @@ $data = json_decode($resume[1], true);
                     <p class="techused">Technologies used:&nbsp;<?php echo $project['technologies']; ?></p>
                 </li>
             </ul>
-            <?php endforeach; ?>
         </div>
-
+        <?php endforeach; ?>
 
         <?php if (count($data['certification']) > 0): ?>
             <div class="details" id="title">

@@ -15,8 +15,8 @@ body, html {
 	height:100%;
 	float: left;
 	width: 240px;
-	/*border:1px solid red;*/
-	color:#ffffff !important;
+	border:1px solid #313946;
+	color:#313946 !important;
 }
 .right_cont {
 	padding: 10px;
@@ -25,7 +25,7 @@ body, html {
 	float:right;
 	width: 558px;
 	background-color:#FFF;
-	/*border:1px solid red;*/
+	border:1px solid #FFF;
 }
 
 .skills img {
